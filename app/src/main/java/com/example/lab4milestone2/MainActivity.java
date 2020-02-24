@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
-            TextView addressTextView = (TextView) findViewById(R.id.addressTextView);
+            TextView addressTextView = (TextView) findViewById(R.id.addTextVeiw);
             addressTextView.setText(address);
 
         } catch (IOException e) {
